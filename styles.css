@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+body{
+    width: 100%;
+    background: url('assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #F9EEFF;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15% 0;
+    font-family: 'WorkSans';
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+
+.card{
+    width: 100%;
+    max-width: 37.5rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.card_header{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card_body{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #dadada;
+}
+
+.sub_heading{
+    font-weight: 600;
+}
+
+.contain_heading:hover{
+    cursor: pointer;
+    color:  #AF26ED;
+}
+
+.text_hide{
+    margin-top: 1.5rem;
+    display: none;
+}
+
+.fa-solid{
+    font-size: 1.5rem;
+}
+
+.fa-solid:hover{
+    cursor: pointer;
+}
+
+.fa-circle-plus{
+    color: #AF26ED;
+}
+
+.fa-circle-minus{
+    display: none;
+}
+
+.fa-circle-minus{
+    color: #000;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
